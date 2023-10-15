@@ -1,0 +1,106 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Shohib'</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">Shohib' saya Dewa (Krisna), Aryo, Cahyo</ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Search</ion-title>
+    </ion-toolbar>
+
+    <!-- GRID -->
+    <ion-grid>
+      <ion-row>
+        <ion-searchbar class="searchbar" animated="true" placeholder="Search For Friends"></ion-searchbar>
+      </ion-row>
+    </ion-grid>
+
+  </ion-header>
+  <ion-content class="content">
+
+    <!-- LIST, IMAGE, BUTTON, TOAST -->
+    <ion-list>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/krisna.jpeg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Krisna</h2>
+        </ion-label>
+        <ion-button id="toast1" slot="end" color="primary">Add Friend</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast1" duration="3000" [buttons]="toastButton"
+          message="Khrisna Rabbani Fawwaz"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/cahyo.jpeg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Cahyo</h2>
+        </ion-label>
+        <ion-button id="toast2" slot="end" color="primary">Unfriend</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast2" duration="3000" [buttons]="toastButton"
+          message="Raphael D. Cahyo Purba"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/saufi.jpeg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Saufi</h2>
+        </ion-label>
+        <ion-button id="toast3" slot="end" color="primary">Accept</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast3" duration="3000" [buttons]="toastButton"
+          message="Saufi Apriyandi"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/aryo.jpeg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Aryo</h2>
+        </ion-label>
+        <ion-button id="toast4" slot="end" color="primary">Accept</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast4" duration="3000" [buttons]="toastButton"
+          message="Ariansyah Aryo Prasetyo"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/fatih.jpeg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Fatih</h2>
+        </ion-label>
+        <ion-button id="toast5" slot="end" color="primary">Add Friend</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast5" duration="3000" [buttons]="toastButton"
+          message="Ahmad Fatih Rahmatullah"></ion-toast>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="../../assets/img/christy.jpeg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Christy</h2>
+        </ion-label>
+        <ion-button id="toast5" slot="end" color="primary">Accept</ion-button>
+        <ion-toast class="toast" position="middle" trigger="toast5" duration="3000" [buttons]="toastButton"
+          message="Angelina Christy"></ion-toast>
+      </ion-item>
+
+    </ion-list>
+  </ion-content>
+</div>

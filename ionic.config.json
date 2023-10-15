@@ -1,0 +1,7 @@
+{
+  "name": "Difa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
